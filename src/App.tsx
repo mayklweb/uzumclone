@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { Footer, Header } from "./components"
 
 function App() {
-  const [count, setCount] = useState<number>(0)
   
-  console.log(count)
   return (
-    <>
-      <h1 className=''></h1>
-    </>
+    <div className="flex flex-col">
+    <Header/>
+    <main className="flex flex-auto">
+
+    </main>
+    <Footer/>
+    </div>
   )
 }
 
