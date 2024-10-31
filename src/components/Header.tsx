@@ -10,28 +10,26 @@ export default function Header() {
     <header>
       {/* HEADER TOP */}
       <div className='bg-grey-100 py-1'>
-        <div className='container mx-auto px-[1rem]'>
+        <div className='container mx-auto px-[12px]'>
           <div className='flex items-center justify-between'>
             <div>
               <button className='text-sm font-medium'>Tashkent</button>
             </div>
             <div className='flex gap-3'>
               <div className='flex items-center gap-3'>
-                <button className='text-sm font-medium text-primary'>Стать продавцом</button>
+                <button className='text-sm font-medium text-header-top-text hover:text-header-top-text-hover'>Стать продавцом</button>
                 <div className='w-0.5 h-4 bg-grey-o-100'></div>
-                <button className='text-sm font-medium text-primary'>Открыт пункт выдачи</button>
+                <button className='text-sm font-medium text-header-top-text hover:text-header-top-text-hover transition'>Открыт пункт выдачи</button>
               </div>
               <button className='text-sm text-dark font-medium hover:text-secondary'>Вопрос-ответ</button>
               <button className='text-sm text-dark font-medium hover:text-secondary'>Мой заказы</button>
               <button></button>
             </div>
           </div>
-
         </div>
       </div>
 
-      <div className='container mx-auto px-[1rem]'>
-
+      <div className='container mx-auto px-[12px]'>
         {/* HEADER */}
         <div className='py-5 flex items-center justify-between'>
           <div className='flex items-center justify-center'>
@@ -65,7 +63,7 @@ export default function Header() {
               </span>
               <span className='hidden lg:block'>Избранное</span>
             </button>
-            <button className='text-sm font-medium text-txt-p py-2 px-3 rounded-[4px] flex items-centerjustify-center hover:bg-h-hover transition gap-x-2'>
+            <button className='text-sm font-medium text-txt-p py-2 px-3 rounded-[4px] flex items-center justify-center hover:bg-h-hover transition gap-x-2'>
               <span>
                 <CartIcon />
               </span>
@@ -75,6 +73,17 @@ export default function Header() {
         </div>
 
         {/* HEADER BOTTOM */}
+        <div className='flex gap-6 pt-[10px] pb-[12px]'>
+          <button className='flex flex-col text-sm opacity-50 after:h-[1.5px] after:w-[0px] after:bg-[black] hover:opacity-100 hover:after:w-full transition-all after:transition-all after:ease-in-out after:duration-500'> Электроника </button>
+          <button className='flex flex-col text-sm opacity-50 after:h-[1.5px] after:w-[0px] after:bg-[black] hover:opacity-100 hover:after:w-full transition-all after:transition-all after:ease-in-out after:duration-500'> Бытовая техника </button>
+          <button className='flex flex-col text-sm opacity-50 after:h-[1.5px] after:w-[0px] after:bg-[black] hover:opacity-100 hover:after:w-full transition-all after:transition-all after:ease-in-out after:duration-500'> Одежда </button>
+          <button className='flex flex-col text-sm opacity-50 after:h-[1.5px] after:w-[0px] after:bg-[black] hover:opacity-100 hover:after:w-full transition-all after:transition-all after:ease-in-out after:duration-500'> Обувь </button>
+          <button className='flex flex-col text-sm opacity-50 after:h-[1.5px] after:w-[0px] after:bg-[black] hover:opacity-100 hover:after:w-full transition-all after:transition-all after:ease-in-out after:duration-500'> Аксессуары </button>
+          <button className='flex flex-col text-sm opacity-50 after:h-[1.5px] after:w-[0px] after:bg-[black] hover:opacity-100 hover:after:w-full transition-all after:transition-all after:ease-in-out after:duration-500'> Красота и уход </button>
+          <button className='flex flex-col text-sm opacity-50 after:h-[1.5px] after:w-[0px] after:bg-[black] hover:opacity-100 hover:after:w-full transition-all after:transition-all after:ease-in-out after:duration-500'> Здоровье </button>
+          <button className='flex flex-col text-sm opacity-50 after:h-[1.5px] after:w-[0px] after:bg-[black] hover:opacity-100 hover:after:w-full transition-all after:transition-all after:ease-in-out after:duration-500'> Товары для дома </button>
+          <button className='flex flex-col text-sm opacity-50 after:h-[1.5px] after:w-[0px] after:bg-[black] hover:opacity-100 hover:after:w-full transition-all after:transition-all after:ease-in-out after:duration-500'> Ещё </button>
+        </div>
       </div>
     </header>
   )
