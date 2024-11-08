@@ -10,7 +10,7 @@ export default function Header() {
     <header>
       {/* HEADER TOP */}
       <div className='bg-grey-100 py-1'>
-        <div className='container mx-auto px-[12px]'>
+        <div className='container mx-auto px-[20px]'>
           <div className='flex items-center justify-between'>
             <div>
               <button className='text-sm font-medium'>Tashkent</button>
@@ -29,7 +29,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className='container mx-auto px-[12px]'>
+      <div className='container mx-auto px-[20px]'>
         {/* HEADER */}
         <div className='py-5 flex items-center justify-between'>
           <div className='flex items-center justify-center'>

@@ -1,9 +1,10 @@
-import Hero from './hero'
+import { Hero, Recommend } from './index'
 
 function Home() {
   return (
     <>
-      <Hero/>
+      <Hero />
+      <Recommend />
     </>
   )
 }

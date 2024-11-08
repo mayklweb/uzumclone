@@ -10,14 +10,12 @@ import RightArrow from './components/RightArrow';
 function Hero() {
   return (
     <div>
-      <div className='container mx-auto px-[12px]'>
+      <div className='container mx-auto px-[20px]'>
         <Swiper
-          //  style={{
-          //   "--swiper-navigation-color": "#000",
-          //   "--swiper-pagination-color": "#000",
-          //   "--swiper-pagination-size": "6px",
-          //   "--swiper-navigation-size": "20px",
-          // }}
+           style={{
+            "--swiper-pagination-color": "#fff",
+            "--swiper-pagination-size": "5px",
+          } as React.CSSProperties}
           speed={1000}
           slidesPerView={1}
           loop={true}
@@ -26,13 +24,8 @@ function Hero() {
             nextEl: '.next',
           }}
           pagination={{
-            el: ".swiper-pagination",
-            type: "bullets",
             clickable: true,
-            bulletClass: "bg-[black]", //tailwind styles don't work here?
-            bulletActiveClass: "bg-green-400",
           }}
-          // navigation={true}
           modules={[Pagination, Navigation]}
           className="rounded-lg"
         >
@@ -65,11 +58,11 @@ function Hero() {
           <RightArrow />
           <LeftArrow />
         </Swiper>
-        <div>
-          <button> </button>
-          <button> </button>
-          <button> </button>
-          <button> </button>
+        <div className='flex gap-3 mt-3'>
+          <button className='w-[300px] h-[60px] px-8 py-3 bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Распродажа</button>
+          <button className='w-[300px] h-[60px] px-8 py-3 bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Скидки Xiaomi</button>
+          <button className='w-[300px] h-[60px] px-8 py-3 bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Ликвидация</button>
+          <button className='w-[300px] h-[60px] px-8 py-3 bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Сезон свадеб</button>
         </div>
       </div>
     </div >

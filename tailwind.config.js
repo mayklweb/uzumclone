@@ -17,6 +17,7 @@ export default {
       'h-hover': '#dee0e5',
       'txt-p': '#1f2026',
       'primary': '#7f4dff',
+
       'secondary': '#1f2026',
       'dark': '#4d4f59',
       'primary-90': '#e5e5ff',
@@ -26,10 +27,20 @@ export default {
       'grey-200': '#edeff2',
 
       // HEADER BOTTOM
+
+      // MAIN COLOR
+      'primariy': '#efefef',
+      'secondary': '#efefef',
+      'grey-100': '#efefef',
+      'grey-200': '#dee0e5',
+      'grey-300': '#7e818c',
+      'dark-100': '#1F1F26',
+
+
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'], // Custom font for "font-sans" class
+        sans: ['Inter', 'sans-serif'], 
       },
     },
   },
