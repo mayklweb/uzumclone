@@ -33,14 +33,15 @@ export default {
       'secondary': '#efefef',
       'grey-100': '#efefef',
       'grey-200': '#dee0e5',
-      'grey-300': '#7e818c',
+      'grey-300': '#8b8e99', 
+      'grey-400': '#7e818c',
       'dark-100': '#1F1F26',
 
 
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'], 
+        sans: ['Inter', 'sans-serif'],
       },
     },
   },

@@ -1,4 +1,5 @@
 import React from 'react'
+import AddCartIcon from '../../../assets/icons/AddCartIcon'
 
 function Recommend() {
   return (
@@ -13,7 +14,7 @@ function Recommend() {
               </div>
               <div className='w-full pt-3 pr-2 pb-2 pl-2 flex flex-auto flex-col items-start'>
                 <h5 className='text-[14px]'>Компьютерные очки с защитой от синего света</h5>
-                <p className='mt-1 flex gap-1 text-grey-300'>
+                <p className='mt-1 flex gap-1 text-grey-400'>
                   <span>
                     <svg data-v-cee4be4c="" width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z" fill="#F5A623"></path>
@@ -24,9 +25,12 @@ function Recommend() {
                 <p className='text-xs rounded-[4px] px-1 py-[1px] bg-[#FFFF00]'>
                   <span>984 сум/мес</span>
                 </p>
-                <div className='h-full'>
-                  <span className='text-[0.7rem] line-through text-grey-300 '>17 000 сум</span>
+                <div className='w-full h-full flex items-end justify-between'>
+                  <div>
+                  <span className='text-[0.7rem] line-through text-grey-400 '>17 000 сум</span>
                   <p className='text-sm'>13 900 сум</p>
+                  </div>
+                  <button className='w-8 h-8 rounded-full border-[1px] border-solid border-grey-200 flex items-center justify-center hover:bg-grey-200 transition-all'> <AddCartIcon/> </button>
                 </div>
               </div>
             </div>
@@ -36,7 +40,7 @@ function Recommend() {
               </div>
               <div className='w-full pt-3 pr-2 pb-2 pl-2 flex flex-auto flex-col items-start'>
                 <h5 className='text-[14px]'>Компьютерные очки с защитой от синего света</h5>
-                <p className='mt-1 flex gap-1 text-grey-300'>
+                <p className='mt-1 flex gap-1 text-grey-400'>
                   <span>
                     <svg data-v-cee4be4c="" width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z" fill="#F5A623"></path>
@@ -47,9 +51,12 @@ function Recommend() {
                 <p className='text-xs rounded-[4px] px-1 py-[1px] bg-[#FFFF00]'>
                   <span>984 сум/мес</span>
                 </p>
-                <div className='h-full'>
-                  <span className='text-[0.7rem] line-through text-grey-300 '>17 000 сум</span>
+                <div className='w-full h-full flex items-end justify-between'>
+                  <div>
+                  <span className='text-[0.7rem] line-through text-grey-400 '>17 000 сум</span>
                   <p className='text-sm'>13 900 сум</p>
+                  </div>
+                  <button className='w-8 h-8 rounded-full border-[1px] border-solid border-grey-200 flex items-center justify-center hover:bg-grey-200 transition-all'> <AddCartIcon/> </button>
                 </div>
               </div>
             </div>
@@ -59,7 +66,7 @@ function Recommend() {
               </div>
               <div className='w-full pt-3 pr-2 pb-2 pl-2 flex flex-auto flex-col items-start'>
                 <h5 className='text-[14px]'>Компьютерные очки с защитой от синего света</h5>
-                <p className='mt-1 flex gap-1 text-grey-300'>
+                <p className='mt-1 flex gap-1 text-grey-400'>
                   <span>
                     <svg data-v-cee4be4c="" width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z" fill="#F5A623"></path>
@@ -70,9 +77,12 @@ function Recommend() {
                 <p className='text-xs rounded-[4px] px-1 py-[1px] bg-[#FFFF00]'>
                   <span>984 сум/мес</span>
                 </p>
-                <div className='h-full'>
-                  <span className='text-[0.7rem] line-through text-grey-300 '>17 000 сум</span>
+                <div className='w-full h-full flex items-end justify-between'>
+                  <div>
+                  <span className='text-[0.7rem] line-through text-grey-400 '>17 000 сум</span>
                   <p className='text-sm'>13 900 сум</p>
+                  </div>
+                  <button className='w-8 h-8 rounded-full border-[1px] border-solid border-grey-200 flex items-center justify-center hover:bg-grey-200 transition-all'> <AddCartIcon/> </button>
                 </div>
               </div>
             </div>
@@ -82,7 +92,7 @@ function Recommend() {
               </div>
               <div className='w-full pt-3 pr-2 pb-2 pl-2 flex flex-auto flex-col items-start'>
                 <h5 className='text-[14px]'>Компьютерные очки с защитой от синего света</h5>
-                <p className='mt-1 flex gap-1 text-grey-300'>
+                <p className='mt-1 flex gap-1 text-grey-400'>
                   <span>
                     <svg data-v-cee4be4c="" width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z" fill="#F5A623"></path>
@@ -93,9 +103,12 @@ function Recommend() {
                 <p className='text-xs rounded-[4px] px-1 py-[1px] bg-[#FFFF00]'>
                   <span>984 сум/мес</span>
                 </p>
-                <div className='h-full'>
-                  <span className='text-[0.7rem] line-through text-grey-300 '>17 000 сум</span>
+                <div className='w-full h-full flex items-end justify-between'>
+                  <div>
+                  <span className='text-[0.7rem] line-through text-grey-400 '>17 000 сум</span>
                   <p className='text-sm'>13 900 сум</p>
+                  </div>
+                  <button className='w-8 h-8 rounded-full border-[1px] border-solid border-grey-200 flex items-center justify-center hover:bg-grey-200 transition-all'> <AddCartIcon/> </button>
                 </div>
               </div>
             </div>
@@ -105,7 +118,7 @@ function Recommend() {
               </div>
               <div className='w-full pt-3 pr-2 pb-2 pl-2 flex flex-auto flex-col items-start'>
                 <h5 className='text-[14px]'>Компьютерные очки с защитой от синего света</h5>
-                <p className='mt-1 flex gap-1 text-grey-300'>
+                <p className='mt-1 flex gap-1 text-grey-400'>
                   <span>
                     <svg data-v-cee4be4c="" width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z" fill="#F5A623"></path>
@@ -116,9 +129,12 @@ function Recommend() {
                 <p className='text-xs rounded-[4px] px-1 py-[1px] bg-[#FFFF00]'>
                   <span>984 сум/мес</span>
                 </p>
-                <div className='h-full'>
-                  <span className='text-[0.7rem] line-through text-grey-300 '>17 000 сум</span>
+                <div className='w-full h-full flex items-end justify-between'>
+                  <div>
+                  <span className='text-[0.7rem] line-through text-grey-400 '>17 000 сум</span>
                   <p className='text-sm'>13 900 сум</p>
+                  </div>
+                  <button className='w-8 h-8 rounded-full border-[1px] border-solid border-grey-200 flex items-center justify-center hover:bg-grey-200 transition-all'> <AddCartIcon/> </button>
                 </div>
               </div>
             </div>
@@ -128,7 +144,7 @@ function Recommend() {
               </div>
               <div className='w-full pt-3 pr-2 pb-2 pl-2 flex flex-auto flex-col items-start'>
                 <h5 className='text-[14px]'>Компьютерные очки с защитой от синего света</h5>
-                <p className='mt-1 flex gap-1 text-grey-300'>
+                <p className='mt-1 flex gap-1 text-grey-400'>
                   <span>
                     <svg data-v-cee4be4c="" width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z" fill="#F5A623"></path>
@@ -139,9 +155,12 @@ function Recommend() {
                 <p className='text-xs rounded-[4px] px-1 py-[1px] bg-[#FFFF00]'>
                   <span>984 сум/мес</span>
                 </p>
-                <div className='h-full'>
-                  <span className='text-[0.7rem] line-through text-grey-300 '>17 000 сум</span>
+                <div className='w-full h-full flex items-end justify-between'>
+                  <div>
+                  <span className='text-[0.7rem] line-through text-grey-400 '>17 000 сум</span>
                   <p className='text-sm'>13 900 сум</p>
+                  </div>
+                  <button className='w-8 h-8 rounded-full border-[1px] border-solid border-grey-200 flex items-center justify-center hover:bg-grey-200 transition-all'> <AddCartIcon/> </button>
                 </div>
               </div>
             </div>
@@ -151,7 +170,7 @@ function Recommend() {
               </div>
               <div className='w-full pt-3 pr-2 pb-2 pl-2 flex flex-auto flex-col items-start'>
                 <h5 className='text-[14px]'>Компьютерные очки с защитой от синего света</h5>
-                <p className='mt-1 flex gap-1 text-grey-300'>
+                <p className='mt-1 flex gap-1 text-grey-400'>
                   <span>
                     <svg data-v-cee4be4c="" width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z" fill="#F5A623"></path>
@@ -162,9 +181,12 @@ function Recommend() {
                 <p className='text-xs rounded-[4px] px-1 py-[1px] bg-[#FFFF00]'>
                   <span>984 сум/мес</span>
                 </p>
-                <div className='h-full'>
-                  <span className='text-[0.7rem] line-through text-grey-300 '>17 000 сум</span>
+                <div className='w-full h-full flex items-end justify-between'>
+                  <div>
+                  <span className='text-[0.7rem] line-through text-grey-400 '>17 000 сум</span>
                   <p className='text-sm'>13 900 сум</p>
+                  </div>
+                  <button className='w-8 h-8 rounded-full border-[1px] border-solid border-grey-200 flex items-center justify-center hover:bg-grey-200 transition-all'> <AddCartIcon/> </button>
                 </div>
               </div>
             </div>
@@ -174,7 +196,7 @@ function Recommend() {
               </div>
               <div className='w-full pt-3 pr-2 pb-2 pl-2 flex flex-auto flex-col items-start'>
                 <h5 className='text-[14px]'>Компьютерные очки с защитой от синего света</h5>
-                <p className='mt-1 flex gap-1 text-grey-300'>
+                <p className='mt-1 flex gap-1 text-grey-400'>
                   <span>
                     <svg data-v-cee4be4c="" width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z" fill="#F5A623"></path>
@@ -185,9 +207,12 @@ function Recommend() {
                 <p className='text-xs rounded-[4px] px-1 py-[1px] bg-[#FFFF00]'>
                   <span>984 сум/мес</span>
                 </p>
-                <div className='h-full'>
-                  <span className='text-[0.7rem] line-through text-grey-300 '>17 000 сум</span>
+                <div className='w-full h-full flex items-end justify-between'>
+                  <div>
+                  <span className='text-[0.7rem] line-through text-grey-400 '>17 000 сум</span>
                   <p className='text-sm'>13 900 сум</p>
+                  </div>
+                  <button className='w-8 h-8 rounded-full border-[1px] border-solid border-grey-200 flex items-center justify-center hover:bg-grey-200 transition-all'> <AddCartIcon/> </button>
                 </div>
               </div>
             </div>
@@ -197,7 +222,7 @@ function Recommend() {
               </div>
               <div className='w-full pt-3 pr-2 pb-2 pl-2 flex flex-auto flex-col items-start'>
                 <h5 className='text-[14px]'>Компьютерные очки с защитой от синего света</h5>
-                <p className='mt-1 flex gap-1 text-grey-300'>
+                <p className='mt-1 flex gap-1 text-grey-400'>
                   <span>
                     <svg data-v-cee4be4c="" width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z" fill="#F5A623"></path>
@@ -208,9 +233,12 @@ function Recommend() {
                 <p className='text-xs rounded-[4px] px-1 py-[1px] bg-[#FFFF00]'>
                   <span>984 сум/мес</span>
                 </p>
-                <div className='h-full'>
-                  <span className='text-[0.7rem] line-through text-grey-300 '>17 000 сум</span>
+                <div className='w-full h-full flex items-end justify-between'>
+                  <div>
+                  <span className='text-[0.7rem] line-through text-grey-400 '>17 000 сум</span>
                   <p className='text-sm'>13 900 сум</p>
+                  </div>
+                  <button className='w-8 h-8 rounded-full border-[1px] border-solid border-grey-200 flex items-center justify-center hover:bg-grey-200 transition-all'> <AddCartIcon/> </button>
                 </div>
               </div>
             </div>
@@ -220,7 +248,7 @@ function Recommend() {
               </div>
               <div className='w-full pt-3 pr-2 pb-2 pl-2 flex flex-auto flex-col items-start'>
                 <h5 className='text-[14px]'>Компьютерные очки с защитой от синего света</h5>
-                <p className='mt-1 flex gap-1 text-grey-300'>
+                <p className='mt-1 flex gap-1 text-grey-400'>
                   <span>
                     <svg data-v-cee4be4c="" width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z" fill="#F5A623"></path>
@@ -231,9 +259,12 @@ function Recommend() {
                 <p className='text-xs rounded-[4px] px-1 py-[1px] bg-[#FFFF00]'>
                   <span>984 сум/мес</span>
                 </p>
-                <div className='h-full'>
-                  <span className='text-[0.7rem] line-through text-grey-300 '>17 000 сум</span>
+                <div className='w-full h-full flex items-end justify-between'>
+                  <div>
+                  <span className='text-[0.7rem] line-through text-grey-400 '>17 000 сум</span>
                   <p className='text-sm'>13 900 сум</p>
+                  </div>
+                  <button className='w-8 h-8 rounded-full border-[1px] border-solid border-grey-200 flex items-center justify-center hover:bg-grey-200 transition-all'> <AddCartIcon/> </button>
                 </div>
               </div>
             </div>

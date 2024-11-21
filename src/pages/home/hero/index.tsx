@@ -58,11 +58,11 @@ function Hero() {
           <RightArrow />
           <LeftArrow />
         </Swiper>
-        <div className='flex gap-3 mt-3'>
-          <button className='w-[300px] h-[60px] px-8 py-3 bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Распродажа</button>
-          <button className='w-[300px] h-[60px] px-8 py-3 bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Скидки Xiaomi</button>
-          <button className='w-[300px] h-[60px] px-8 py-3 bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Ликвидация</button>
-          <button className='w-[300px] h-[60px] px-8 py-3 bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Сезон свадеб</button>
+        <div className='flex gap-4 mt-4'>
+          <button className='w-[300px] h-[60px] text-sm font-medium p-4 flex items-center justify-center bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Распродажа</button>
+          <button className='w-[300px] h-[60px] text-sm font-medium p-4 flex items-center justify-center bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Скидки Xiaomi</button>
+          <button className='w-[300px] h-[60px] text-sm font-medium p-4 flex items-center justify-center bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Ликвидация</button>
+          <button className='w-[300px] h-[60px] text-sm font-medium p-4 flex items-center justify-center bg-grey-100 rounded-2xl hover:bg-grey-200 transition'>Сезон свадеб</button>
         </div>
       </div>
     </div >
